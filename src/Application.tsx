@@ -8,12 +8,12 @@ const TransparentInput = styled(Input, {
   outlineColor: 'transparent',
   hoverStyle: {
     borderColor: 'transparent',
-    outlineColor: 'transparent',
-    borderWidth: 0,
+    outlineColor: '$someColorThatDoesNotExist',
+    borderWidth: '$890',
   },
   focusStyle: {
     borderColor: 'transparent',
-    outlineColor: 'transparent',
+    outlineColor: 'someColorThatDoesNotExist',
     borderWidth: 0,
   },
 });

@@ -75,6 +75,9 @@ export const config = createTamagui({
     hoverNone: { hover: 'none' },
     pointerCoarse: { pointer: 'coarse' },
   }),
+  settings: {
+    allowedStyleValues: 'strict',
+  }
 })
 
 export default config;
